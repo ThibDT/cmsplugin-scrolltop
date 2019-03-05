@@ -1,0 +1,12 @@
+{% load sekizai_tags static %}
+<div id="scroll_top_plugin" class="hidden">
+    <i class="fa fa-arrow-up"></i>
+</div>
+
+{% addtoblock "css" %}
+<link rel="stylesheet" href="{% static 'css/scroll_top_plugin.css' %}">
+{% endaddtoblock %}
+
+{% addtoblock "js" %}
+<script src="{% static 'js/scroll_top_plugin.js' %}"></script>
+{% endaddtoblock %}

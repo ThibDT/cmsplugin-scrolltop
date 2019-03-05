@@ -1,0 +1,18 @@
+#scroll_top_plugin {
+    cursor: pointer;
+    display:inline;
+    position:fixed;
+    right:2vw;
+    bottom:5vh;
+    background-color:#343a40;
+    color:#ffffff;
+    border-radius: 50%;
+    padding:.5em 1em; 
+    opacity: .5;
+    transition: opacity .5s;
+}
+
+#scroll_top_plugin.hidden {
+    opacity: 0;
+    transition: opacity .5s;
+}
